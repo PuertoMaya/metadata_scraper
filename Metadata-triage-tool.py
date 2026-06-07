@@ -196,8 +196,8 @@ def run_scanner(target_directory, num_workers=4):
 if __name__ == "__main__":
     #CLI handler 
     if len(sys.argv) < 2:
-        print("Usage: python script.py <directory_to_scan>")
-        print("Example: python script.py ./my_test_files")
+        print("Usage: Metadata-triage-tool.py <directory_to_scan>")
+        print("Example: Metadata-triage-tool.py ./my_test_files")
     else:
         user_dir = sys.argv[1]
         run_scanner(user_dir)
