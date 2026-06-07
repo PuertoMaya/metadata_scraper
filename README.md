@@ -29,3 +29,32 @@ This is just the beginning. Right now, the tool handles the "basics," but I am a
     Error Level Analysis (ELA): Adding visual analysis to look at how pixels are compressed, helping to identify if someone digitally added or removed an object into a scene after the fact.
 
 I’m not a lawyer or a field investigator yet, but I am an engineer. And in 2026, building the code that protects the integrity of the truth is one of the most important ways to fight for justice.
+
+
+STEP BY STEP installation and setup:
+first we create an environment using:
+
+    python -m venv venv
+
+then we activate it:
+for linux/MacOS:
+
+    source venv/bin/activate
+    
+for Windows:
+
+    .\venv\Scripts\Activate.ps1
+second step would be installing the python dependencies:
+
+    pip install -r requirements.txt
+
+WARNING: if you are working on a MacOS device firstly you have to download the following system dependencies:
+    
+    brew install libmagic exiftool
+
+WARNING: if you are working on a Linux device firstly you have to download the following system dependencies:
+
+    sudo apt-get update
+    sudo apt-get install libmagic1 exiftool
+
+
