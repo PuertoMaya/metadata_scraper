@@ -1,0 +1,5 @@
+# Instala el wrapper de la librería para linux o MacOS
+python-magic==0.4.27; platform_system != "Windows"
+
+#Instala el libmagic binaries precompilado para Windows
+python-magic-bin==0.4.14; platform_system == "Windows"
